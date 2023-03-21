@@ -1,0 +1,341 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="3" passed="3" failed="0" skipped="0">
+  <reporter-output>
+    <line>
+      <![CDATA[Register Demo page is displayed]]>
+    </line>
+    <line>
+      <![CDATA[Title of the page is : Demo Site – Registration Form – NxtGen A.I Academy]]>
+    </line>
+    <line>
+      <![CDATA[Form title is displayed]]>
+    </line>
+    <line>
+      <![CDATA[Actual and expected registration form title are same]]>
+    </line>
+    <line>
+      <![CDATA[Actual and expected title is : Register For Demo]]>
+    </line>
+    <line>
+      <![CDATA[First Name is Displayed]]>
+    </line>
+    <line>
+      <![CDATA[First Name is :Vinoth]]>
+    </line>
+    <line>
+      <![CDATA[Last name is Displayed]]>
+    </line>
+    <line>
+      <![CDATA[Last Name is :R]]>
+    </line>
+    <line>
+      <![CDATA[Radio button is not selected]]>
+    </line>
+    <line>
+      <![CDATA[Radio button is selected]]>
+    </line>
+    <line>
+      <![CDATA[Street Address is Displayed]]>
+    </line>
+    <line>
+      <![CDATA[Street address is :ABC]]>
+    </line>
+    <line>
+      <![CDATA[Apartment is displayed]]>
+    </line>
+    <line>
+      <![CDATA[Apartment number is : XYZ]]>
+    </line>
+    <line>
+      <![CDATA[City is displayed]]>
+    </line>
+    <line>
+      <![CDATA[City is : Chennai]]>
+    </line>
+    <line>
+      <![CDATA[State is displayed]]>
+    </line>
+    <line>
+      <![CDATA[State is : Tamil Nadu]]>
+    </line>
+    <line>
+      <![CDATA[Postal/Zip is displayed]]>
+    </line>
+    <line>
+      <![CDATA[Postal/Zip value is :600100]]>
+    </line>
+    <line>
+      <![CDATA[Country is displayed]]>
+    </line>
+    <line>
+      <![CDATA[Country drop down is enabled]]>
+    </line>
+    <line>
+      <![CDATA[Selected country is : India]]>
+    </line>
+    <line>
+      <![CDATA[Email is displayed]]>
+    </line>
+    <line>
+      <![CDATA[Email address is : vinoth@gmail.com]]>
+    </line>
+    <line>
+      <![CDATA[Date is displayed]]>
+    </line>
+    <line>
+      <![CDATA[Entered date is :02/06/23]]>
+    </line>
+    <line>
+      <![CDATA[Time in Hours is displayed]]>
+    </line>
+    <line>
+      <![CDATA[Time in hours is enabled]]>
+    </line>
+    <line>
+      <![CDATA[Select time in hours is :09]]>
+    </line>
+    <line>
+      <![CDATA[Time in minute dropdown is displayed]]>
+    </line>
+    <line>
+      <![CDATA[Time in min drop down is enabled]]>
+    </line>
+    <line>
+      <![CDATA[Time selected in min is : 05]]>
+    </line>
+    <line>
+      <![CDATA[Mobile number is displayed]]>
+    </line>
+    <line>
+      <![CDATA[Mobile number is : 6383544892]]>
+    </line>
+    <line>
+      <![CDATA[UFT checkbox is not selected]]>
+    </line>
+    <line>
+      <![CDATA[TestNG checkbox is not selected]]>
+    </line>
+    <line>
+      <![CDATA[Query text box is displayed]]>
+    </line>
+    <line>
+      <![CDATA[Query is : What is overal cost of the training?]]>
+    </line>
+    <line>
+      <![CDATA[Verification text box is displayed]]>
+    </line>
+    <line>
+      <![CDATA[Verification value is : 99]]>
+    </line>
+    <line>
+      <![CDATA[Submit button is enabled]]>
+    </line>
+    <line>
+      <![CDATA[User is registered]]>
+    </line>
+    <line>
+      <![CDATA[Dynamic Transaction Verification
+Registration Form is Successfully Submitted. The Transaction ID : NXTGEN89385]]>
+    </line>
+    <line>
+      <![CDATA[Form is submitted successfully]]>
+    </line>
+    <line>
+      <![CDATA[Confirmation message is : Registration Form is Successfully Submitted.]]>
+    </line>
+    <line>
+      <![CDATA[The Transaction ID : NXTGEN89385]]>
+    </line>
+    <line>
+      <![CDATA[Message is validated]]>
+    </line>
+  </reporter-output>
+  <suite started-at="2023-03-21T06:52:00 IST" name="Automation Suite" finished-at="2023-03-21T06:52:33 IST" duration-ms="32787">
+    <groups>
+    </groups>
+    <test started-at="2023-03-21T06:52:00 IST" name="Chrome Browser" finished-at="2023-03-21T06:52:33 IST" duration-ms="32787">
+      <class name="com.telus.registerdemo.RegisterDemoFlow">
+        <test-method is-config="true" signature="launchApplication(java.lang.String,java.lang.String)[pri:0, instance:com.telus.registerdemo.RegisterDemoFlow@3d5c822d]" started-at="2023-03-21T06:52:00 IST" name="launchApplication" finished-at="2023-03-21T06:52:21 IST" duration-ms="20919" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[https://nxtgenaiacademy.com/]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchApplication -->
+        <test-method signature="navigateToRegisterDemoScreen()[pri:2, instance:com.telus.registerdemo.RegisterDemoFlow@3d5c822d]" started-at="2023-03-21T06:52:21 IST" name="navigateToRegisterDemoScreen" finished-at="2023-03-21T06:52:22 IST" duration-ms="1509" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Register Demo page is displayed]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- navigateToRegisterDemoScreen -->
+        <test-method signature="registerUser()[pri:3, instance:com.telus.registerdemo.RegisterDemoFlow@3d5c822d]" started-at="2023-03-21T06:52:22 IST" name="registerUser" finished-at="2023-03-21T06:52:32 IST" duration-ms="9882" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Title of the page is : Demo Site – Registration Form – NxtGen A.I Academy]]>
+            </line>
+            <line>
+              <![CDATA[Form title is displayed]]>
+            </line>
+            <line>
+              <![CDATA[Actual and expected registration form title are same]]>
+            </line>
+            <line>
+              <![CDATA[Actual and expected title is : Register For Demo]]>
+            </line>
+            <line>
+              <![CDATA[First Name is Displayed]]>
+            </line>
+            <line>
+              <![CDATA[First Name is :Vinoth]]>
+            </line>
+            <line>
+              <![CDATA[Last name is Displayed]]>
+            </line>
+            <line>
+              <![CDATA[Last Name is :R]]>
+            </line>
+            <line>
+              <![CDATA[Radio button is not selected]]>
+            </line>
+            <line>
+              <![CDATA[Radio button is selected]]>
+            </line>
+            <line>
+              <![CDATA[Street Address is Displayed]]>
+            </line>
+            <line>
+              <![CDATA[Street address is :ABC]]>
+            </line>
+            <line>
+              <![CDATA[Apartment is displayed]]>
+            </line>
+            <line>
+              <![CDATA[Apartment number is : XYZ]]>
+            </line>
+            <line>
+              <![CDATA[City is displayed]]>
+            </line>
+            <line>
+              <![CDATA[City is : Chennai]]>
+            </line>
+            <line>
+              <![CDATA[State is displayed]]>
+            </line>
+            <line>
+              <![CDATA[State is : Tamil Nadu]]>
+            </line>
+            <line>
+              <![CDATA[Postal/Zip is displayed]]>
+            </line>
+            <line>
+              <![CDATA[Postal/Zip value is :600100]]>
+            </line>
+            <line>
+              <![CDATA[Country is displayed]]>
+            </line>
+            <line>
+              <![CDATA[Country drop down is enabled]]>
+            </line>
+            <line>
+              <![CDATA[Selected country is : India]]>
+            </line>
+            <line>
+              <![CDATA[Email is displayed]]>
+            </line>
+            <line>
+              <![CDATA[Email address is : vinoth@gmail.com]]>
+            </line>
+            <line>
+              <![CDATA[Date is displayed]]>
+            </line>
+            <line>
+              <![CDATA[Entered date is :02/06/23]]>
+            </line>
+            <line>
+              <![CDATA[Time in Hours is displayed]]>
+            </line>
+            <line>
+              <![CDATA[Time in hours is enabled]]>
+            </line>
+            <line>
+              <![CDATA[Select time in hours is :09]]>
+            </line>
+            <line>
+              <![CDATA[Time in minute dropdown is displayed]]>
+            </line>
+            <line>
+              <![CDATA[Time in min drop down is enabled]]>
+            </line>
+            <line>
+              <![CDATA[Time selected in min is : 05]]>
+            </line>
+            <line>
+              <![CDATA[Mobile number is displayed]]>
+            </line>
+            <line>
+              <![CDATA[Mobile number is : 6383544892]]>
+            </line>
+            <line>
+              <![CDATA[UFT checkbox is not selected]]>
+            </line>
+            <line>
+              <![CDATA[TestNG checkbox is not selected]]>
+            </line>
+            <line>
+              <![CDATA[Query text box is displayed]]>
+            </line>
+            <line>
+              <![CDATA[Query is : What is overal cost of the training?]]>
+            </line>
+            <line>
+              <![CDATA[Verification text box is displayed]]>
+            </line>
+            <line>
+              <![CDATA[Verification value is : 99]]>
+            </line>
+            <line>
+              <![CDATA[Submit button is enabled]]>
+            </line>
+            <line>
+              <![CDATA[User is registered]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- registerUser -->
+        <test-method signature="validateSuccessfulMessage()[pri:4, instance:com.telus.registerdemo.RegisterDemoFlow@3d5c822d]" started-at="2023-03-21T06:52:32 IST" name="validateSuccessfulMessage" finished-at="2023-03-21T06:52:32 IST" duration-ms="38" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Dynamic Transaction Verification
+Registration Form is Successfully Submitted. The Transaction ID : NXTGEN89385]]>
+            </line>
+            <line>
+              <![CDATA[Form is submitted successfully]]>
+            </line>
+            <line>
+              <![CDATA[Confirmation message is : Registration Form is Successfully Submitted.]]>
+            </line>
+            <line>
+              <![CDATA[The Transaction ID : NXTGEN89385]]>
+            </line>
+            <line>
+              <![CDATA[Message is validated]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- validateSuccessfulMessage -->
+        <test-method is-config="true" signature="closeApplication()[pri:0, instance:com.telus.registerdemo.RegisterDemoFlow@3d5c822d]" started-at="2023-03-21T06:52:32 IST" name="closeApplication" finished-at="2023-03-21T06:52:33 IST" duration-ms="383" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeApplication -->
+      </class> <!-- com.telus.registerdemo.RegisterDemoFlow -->
+    </test> <!-- Chrome Browser -->
+  </suite> <!-- Automation Suite -->
+</testng-results>
