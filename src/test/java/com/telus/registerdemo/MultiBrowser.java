@@ -18,6 +18,8 @@ public class MultiBrowser {
 	@Parameters({"browser","url"})
 	@BeforeClass
 	public void launchApplication(String browser,String url) {
+		
+		System.out.println("Dev OPS CI CD Process Started");
 
 		if(browser.equalsIgnoreCase("chrome")) {
 			System.setProperty("webdriver.chrome.driver",".\\Drivers\\chromedriver.exe");
